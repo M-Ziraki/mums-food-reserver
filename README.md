@@ -61,22 +61,6 @@ python main.py
 * Use the UI to navigate weeks and select meals
 * Upon reservation, the interface will auto-refresh to show your booked meal
 
-## Project Structure
-
-```
-essu-food-reservation/
-├── main.py            # Entry point: handles login and launches GUI
-├── auth.py            # Authentication and CAPTCHA handling
-├── reservation.py     # Reservation logic (fetching pages, parsing HTML)
-├── ui.py              # Tkinter GUI components
-├── requirements.txt   # Python dependencies
-└── README.md          # This file
-```
-
-## Contributing
-
-Contributions are welcome! Please fork the repo and open a pull request against the `development` branch.
-
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
