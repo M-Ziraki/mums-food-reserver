@@ -1,0 +1,70 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
+MUMS Food Reservation
+
+A simple desktop application for automating meal reservations on the MUMS (Mashhad University of Medical Sciences) student food reservation portal.
+
+Features
+	•	Login with username, password and CAPTCHA support
+	•	Navigate through weeks and select meal type (breakfast, lunch, dinner, etc.)
+	•	Select cafeteria and view available menus
+	•	Automate final reservation and refresh UI to reflect reserved meals
+
+Installation
+	1.	Clone the repository
+
+git clone https://github.com/M-Ziraki/mums-food-reserver.git
+cd mums-food-reservation
+
+
+	2.	Create a Python virtual environment (optional but recommended)
+
+python3 -m venv venv
+source venv/bin/activate   # on Windows use `venv\\Scripts\\activate`
+
+
+	3.	Install dependencies
+
+pip install -r requirements.txt
+
+
+	4.	Tkinter setup
+	•	macOS:
+
+brew install python-tk
+
+On newer macOS versions, you may need to install the python-tk formula or use the official Python installer from python.org which bundles Tkinter.
+
+	•	Linux (Debian/Ubuntu):
+
+sudo apt-get install python3-tk
+
+
+	•	Windows:
+Tkinter is included by default with the standard Python installer. If you encounter issues, reinstall Python from python.org and ensure “tcl/tk and IDLE” is checked.
+
+Usage
+
+python main.py
+
+	•	Enter your MUMS credentials and CAPTCHA
+	•	Use the UI to navigate weeks and select meals
+	•	Upon reservation, the interface will auto-refresh to show your booked meal
+
+Project Structure
+
+essu-food-reservation/
+├── main.py            # Entry point: handles login and launches GUI
+├── auth.py            # Authentication and CAPTCHA handling
+├── reservation.py     # Reservation logic (fetching pages, parsing HTML)
+├── ui.py              # Tkinter GUI components
+├── requirements.txt   # Python dependencies
+└── README.md          # This file
+
+Contributing
+
+Contributions are welcome! Please fork the repo and open a pull request against the development branch.
+
+License
+
+This project is licensed under the MIT License. See LICENSE for details.
