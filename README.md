@@ -17,7 +17,7 @@ A simple desktop application for automating meal reservations on the MUMS (Mashh
 
    ```bash
    git clone https://github.com/M-Ziraki/mums-food-reserver.git
-   cd essu-food-reservation
+   cd mums-food-reserver
    ```
 
 2. **Create a Python virtual environment** (optional but recommended)
