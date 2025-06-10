@@ -16,7 +16,7 @@ A simple desktop application for automating meal reservations on the MUMS (Mashh
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/<your-username>/essu-food-reservation.git
+   git clone https://github.com/M-Ziraki/mums-food-reserver.git
    cd essu-food-reservation
    ```
 
